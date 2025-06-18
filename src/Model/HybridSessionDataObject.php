@@ -1,6 +1,6 @@
 <?php
 
-namespace SilverStripe\HybridSessions;
+namespace SilverStripe\HybridSessions\Model;
 
 use SilverStripe\ORM\DataObject;
 
