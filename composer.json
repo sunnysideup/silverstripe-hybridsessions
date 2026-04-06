@@ -1,37 +1,37 @@
 {
-    "name": "silverstripe/hybridsessions",
-    "description": "Cookie/DB session support for SilverStripe",
-    "type": "silverstripe-vendormodule",
-    "keywords": [
-        "silverstripe",
-        "session",
-        "cwp"
-    ],
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "Hamish Friedlander",
-            "email": "hamish@silverstripe.com"
-        }
-    ],
-    "require": {
-        "php": "^8.3",
-        "silverstripe/framework": "^6"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^11.3",
-        "squizlabs/php_codesniffer": "^3",
-        "silverstripe/versioned": "^3",
-        "silverstripe/standards": "^1",
-        "phpstan/extension-installer": "^1.3"
-    },
-    "extra": [],
-    "autoload": {
-        "psr-4": {
-            "SilverStripe\\HybridSessions\\": "src/",
-            "SilverStripe\\HybridSessions\\Tests\\": "tests/"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "silverstripe/hybridsessions",
+  "description": "Cookie/DB session support for SilverStripe",
+  "type": "silverstripe-vendormodule",
+  "keywords": [
+    "silverstripe",
+    "session",
+    "cwp"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Hamish Friedlander",
+      "email": "hamish@silverstripe.com"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "silverstripe/framework": "^6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.3",
+    "squizlabs/php_codesniffer": "^3",
+    "silverstripe/versioned": "^3",
+    "silverstripe/standards": "^1",
+    "phpstan/extension-installer": "^1.3"
+  },
+  "extra": [],
+  "autoload": {
+    "psr-4": {
+      "SilverStripe\\HybridSessions\\": "src/",
+      "SilverStripe\\HybridSessions\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
